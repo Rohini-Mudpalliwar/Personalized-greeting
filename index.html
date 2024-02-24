@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personalized Greeting</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <h1 style="text-transform: uppercase; margin: 0px; text-align: center;">Personalized Introduction</h1>
+
+<div class="mainDiv">
+    <div class="firstDiv">
+    <form>
+        <h5>What's your name? </h5>
+        <input type="text" id="userInput1" required>
+
+        <h5>How would you describe your mood today? </h5>
+        <input type="text" id="userInput2" required>
+
+        <h5>Tell me about your favorite hobby or activity. </h5>
+        <input type="text" id="userInput3" required>
+
+        <h5>Do you have any exciting plans for today?</h5>
+        <input type="text" id="userInput4" required>
+
+        <h5>Where are you located?</h5>
+        <input type="text" id="userInput5" required><br>
+    
+        <button onclick="return mainFunction()">Submit Form</button>
+    
+        </form>
+    </div>
+
+    <div class="secondDiv"> 
+      <div class="paragraph"><p id="demo"></p></div>     
+    </div>
+</div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
